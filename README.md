@@ -4,6 +4,9 @@
 ### install docker
 help yourself
 
+### install pipenv
+https://pipenv.pypa.io/en/latest/#install-pipenv-today
+
 ### install serverless
 https://www.serverless.com/framework/docs/getting-started/
 
