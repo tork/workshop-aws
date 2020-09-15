@@ -39,9 +39,11 @@ you can create credentials in the aws console, if you haven't already
 ## task 1
 perform a deploy, familiarize yourself with the lambda in aws console.
 try calling the lambda using aws console (hint: create a test event)
+it should fail.
 
 ## task 2
-output to s3 by creating a bucket called `workshop-aws-output`. uncomment s3 code in `handler.py`.
+output to s3 by creating a bucket called `workshop-aws-output` _or something similar_.
+update handler.py#24 (`_s3_upload(image_out, 'workshop-aws-output', key)`) so it matches the bucket name you chose.
 deploy and verify that test calls produces objects in the bucket.
 
 ## task 3
