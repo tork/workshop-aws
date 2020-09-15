@@ -50,6 +50,7 @@ deploy and verify that test calls produces objects in the bucket.
 lambdas can be triggered by events in a bucket.
 in `serverless.yml`, uncomment the s3-config: `functions.workshop-aws.events.s3`.
 deploy and verify that serverless has created a bucket by name `aws-workshop-input`.
+since bucket names _apparently_ must be unique :rolling_eyes:, rename it to whatever you like.
 put a png-file into the input-bucket, verify that the result is written to output bucket.
 
 ## task 4
